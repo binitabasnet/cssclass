@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #2E2C03 ;
+            color: #ffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+        nav{
+            background-color: #22211a ;
+            color: #ffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            text-transform: capitalize;
+            margin: 5px 0 0;
+            position: sticky;
+            top:0;
+        }
+        main{
+            height: 800px;
+            background-color: #011108 ;
+            margin: 5px 0 0;
+        }
+        footer{
+            background-color: #22211a ;
+            color: #ffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            text-transform: capitalize;
+            margin: 5px 0 0;
+        }
+        .btn{
+            background-color: rgb(12, 25, 26);
+            border: none;
+            font-size: 25px;
+            padding: 20px;
+            position: fixed;
+            bottom: 5px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>This is sticky tag</nav>
+    <main></main>
+    <footer>
+        Footer
+    </footer>
+<button class="btn">Facebook</button>
+</body>
+</html>

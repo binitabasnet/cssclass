@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zooming</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            border:5px solid rgb(83, 6, 6);
+            overflow: hidden;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            transition: all 3s;
+        }
+        .container:hover img{
+            transform: scale(1.5);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" alt="image source not valid" title="nature image" >
+    </div>
+</body>
+</html>
